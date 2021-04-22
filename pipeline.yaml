@@ -17,12 +17,12 @@ pool:
   vmImage: "ubuntu-18.04"
 
 stages:
-  - stage: "yolo stage"
+  - stage: "yolo"
     jobs:
-      - job:
+      - job: "yolo job"
         steps:
           - task: Bash@3
-            displayName: "yolo bro"
+            displayName: "yolo display name"
             inputs:
               script: |
                 echo "hello, world!"
