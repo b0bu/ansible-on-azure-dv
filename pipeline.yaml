@@ -15,3 +15,15 @@ pr:
 
 pool:
   vmImage: "ubuntu-18.04"
+
+stages:
+  - stage: "yolo stage"
+    jobs:
+      - job:
+        steps:
+          - task: Bash@3
+            displayName: "yolo bro"
+            inputs:
+              script: |
+                echo "hello, world!"
+
