@@ -17,9 +17,11 @@ pool:
   vmImage: "ubuntu-18.04"
 
 stages:
-  - stage: "yolo"
+  - stage: "my_stage"
+    displayName: "displayname for stage"
     jobs:
-      - job: "yolo job"
+      - job: "my_job"
+        displayName: "displayname for job"
         steps:
           - task: Bash@3
             displayName: "yolo display name"
