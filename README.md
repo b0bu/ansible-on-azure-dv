@@ -1,2 +1,2 @@
-# ansible-on-azure-dv
-testing ansible integration on azure devops
+# ansible-node-test
+testing for az dv `ansible-playbook test.yaml`
